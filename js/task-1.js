@@ -1,6 +1,5 @@
 function slugify(title) {
-    const slug = title.toLowerCase();
-    return slug.replace(/\s+/g, '-')
+    return title.toLowerCase().replace(/\s+/g, '-');
 }
 
 console.log(slugify("Arrays for begginers"));
